@@ -19,7 +19,6 @@ function App() {
   const [colour3, setColour3] = useState(generateRandomColour());
   const [score, setScore] = useState(0);
   let colour = selector(colour1, colour2, colour3);
-  console.log(colour);
 
   function checkAnswer1() {
     if (colour === colour1)
